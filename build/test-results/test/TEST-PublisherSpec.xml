@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PublisherSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-02-05T12:42:06" hostname="DESKTOP-EPS949D" time="0.049">
+  <properties/>
+  <testcase name="delivers one event to all subscribers" classname="PublisherSpec" time="0.049">
+    <failure message="Too few invocations for:&#10;&#10;2 * sub1.receive(&quot;event&quot;)   (1 invocation)&#10;&#10;Unmatched invocations (ordered by similarity):&#10;&#10;None&#10;&#10;" type="org.spockframework.mock.TooFewInvocationsError">Too few invocations for:
+
+2 * sub1.receive(&quot;event&quot;)   (1 invocation)
+
+Unmatched invocations (ordered by similarity):
+
+None
+
+
+	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:104)
+	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:77)
+	at PublisherSpec.delivers one event to all subscribers(PublisherSubscriberSpec.groovy:46)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
